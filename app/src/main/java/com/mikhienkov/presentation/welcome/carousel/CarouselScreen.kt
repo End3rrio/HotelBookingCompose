@@ -21,10 +21,10 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.mikhienkov.R
-import com.mikhienkov.designsystem.components.PrimaryButton
-import com.mikhienkov.designsystem.components.SecondaryButton
-import com.mikhienkov.designsystem.components.SliderIndicator
-import com.mikhienkov.designsystem.theme.BookingTheme
+import com.mikhienkov.presentation.designsystem.components.PrimaryButton
+import com.mikhienkov.presentation.designsystem.components.SecondaryButton
+import com.mikhienkov.presentation.designsystem.components.SliderIndicator
+import com.mikhienkov.presentation.designsystem.theme.BookingTheme
 
 
 @Composable

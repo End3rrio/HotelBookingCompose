@@ -1,6 +1,6 @@
 package com.mikhienkov.presentation.home.mybookmark
 
-import com.mikhienkov.designsystem.components.HotelDisplayMode
+import com.mikhienkov.presentation.designsystem.components.HotelDisplayMode
 
 
 sealed interface MyBookmarkIntent {

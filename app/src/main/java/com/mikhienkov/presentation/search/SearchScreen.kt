@@ -59,16 +59,16 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.mikhienkov.R
-import com.mikhienkov.designsystem.components.Checkbox
-import com.mikhienkov.designsystem.components.Chip
-import com.mikhienkov.designsystem.components.Divider
-import com.mikhienkov.designsystem.components.HotelDisplayMode
-import com.mikhienkov.designsystem.components.HotelSummaries
-import com.mikhienkov.designsystem.components.NavbarAction
-import com.mikhienkov.designsystem.components.PrimaryButton
-import com.mikhienkov.designsystem.components.SearchBar
-import com.mikhienkov.designsystem.components.SecondaryButton
-import com.mikhienkov.designsystem.theme.BookingTheme
+import com.mikhienkov.presentation.designsystem.components.Checkbox
+import com.mikhienkov.presentation.designsystem.components.Chip
+import com.mikhienkov.presentation.designsystem.components.Divider
+import com.mikhienkov.presentation.designsystem.components.HotelDisplayMode
+import com.mikhienkov.presentation.designsystem.components.HotelSummaries
+import com.mikhienkov.presentation.designsystem.components.NavbarAction
+import com.mikhienkov.presentation.designsystem.components.PrimaryButton
+import com.mikhienkov.presentation.designsystem.components.SearchBar
+import com.mikhienkov.presentation.designsystem.components.SecondaryButton
+import com.mikhienkov.presentation.designsystem.theme.BookingTheme
 import com.mikhienkov.domain.entities.HotelSummary
 import com.mikhienkov.domain.entities.SearchQuery
 import com.mikhienkov.domain.valueobjects.HotelCategory
@@ -701,8 +701,8 @@ private fun PriceFilter(
                     )
                 )
             },
-            startThumb = { PriceSliderThumb(text = "$${priceRange.from.toInt()}") },
-            endThumb = { PriceSliderThumb(text = "$${priceRange.to.toInt()}") },
+            startThumb = { PriceSliderThumb(text = "${priceRange.from.toInt()}") },
+            endThumb = { PriceSliderThumb(text = "${priceRange.to.toInt()}") },
             colors = colors
         )
     }

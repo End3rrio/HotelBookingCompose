@@ -1,7 +1,7 @@
 package com.mikhienkov.presentation.booking
 
 import com.mikhienkov.R
-import com.mikhienkov.designsystem.components.TagState
+import com.mikhienkov.presentation.designsystem.components.TagState
 import com.mikhienkov.domain.valueobjects.BookingStatus
 
 fun BookingStatus.asTagState() = when (this) {

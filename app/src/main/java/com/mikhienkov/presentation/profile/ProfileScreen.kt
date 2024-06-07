@@ -42,15 +42,15 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.mikhienkov.R
-import com.mikhienkov.designsystem.components.Avatar
-import com.mikhienkov.designsystem.components.AvatarType
-import com.mikhienkov.designsystem.components.Dialog
-import com.mikhienkov.designsystem.components.Divider
-import com.mikhienkov.designsystem.components.PrimaryButton
-import com.mikhienkov.designsystem.components.SecondaryButton
-import com.mikhienkov.designsystem.components.Toggle
-import com.mikhienkov.designsystem.components.TopDestinationNavbar
-import com.mikhienkov.designsystem.theme.BookingTheme
+import com.mikhienkov.presentation.designsystem.components.Avatar
+import com.mikhienkov.presentation.designsystem.components.AvatarType
+import com.mikhienkov.presentation.designsystem.components.Dialog
+import com.mikhienkov.presentation.designsystem.components.Divider
+import com.mikhienkov.presentation.designsystem.components.PrimaryButton
+import com.mikhienkov.presentation.designsystem.components.SecondaryButton
+import com.mikhienkov.presentation.designsystem.components.Toggle
+import com.mikhienkov.presentation.designsystem.components.TopDestinationNavbar
+import com.mikhienkov.presentation.designsystem.theme.BookingTheme
 
 @Composable
 fun ProfileScreen(

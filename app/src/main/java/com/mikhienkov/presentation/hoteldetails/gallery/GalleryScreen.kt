@@ -35,8 +35,8 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import coil.compose.AsyncImage
 import com.mikhienkov.R
-import com.mikhienkov.designsystem.components.Navbar
-import com.mikhienkov.designsystem.theme.BookingTheme
+import com.mikhienkov.presentation.designsystem.components.Navbar
+import com.mikhienkov.presentation.designsystem.theme.BookingTheme
 
 @Composable
 fun GalleryScreen(

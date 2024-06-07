@@ -25,11 +25,11 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.mikhienkov.R
-import com.mikhienkov.designsystem.components.Chip
-import com.mikhienkov.designsystem.components.Navbar
-import com.mikhienkov.designsystem.components.ReviewCard
-import com.mikhienkov.designsystem.components.ReviewsLabel
-import com.mikhienkov.designsystem.theme.BookingTheme
+import com.mikhienkov.presentation.designsystem.components.Chip
+import com.mikhienkov.presentation.designsystem.components.Navbar
+import com.mikhienkov.presentation.designsystem.components.ReviewCard
+import com.mikhienkov.presentation.designsystem.components.ReviewsLabel
+import com.mikhienkov.presentation.designsystem.theme.BookingTheme
 import com.mikhienkov.domain.entities.HotelDetails
 import com.mikhienkov.domain.valueobjects.RatingFilter
 import com.mikhienkov.presentation.utils.asStringRes

@@ -1,7 +1,7 @@
 package com.mikhienkov.presentation.search
 
 import androidx.compose.runtime.Immutable
-import com.mikhienkov.designsystem.components.HotelDisplayMode
+import com.mikhienkov.presentation.designsystem.components.HotelDisplayMode
 import com.mikhienkov.domain.entities.HotelSummary
 import com.mikhienkov.domain.entities.SearchQuery
 import com.mikhienkov.domain.valueobjects.HotelCategory

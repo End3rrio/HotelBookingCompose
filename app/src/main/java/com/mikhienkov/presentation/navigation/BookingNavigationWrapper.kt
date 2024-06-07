@@ -10,8 +10,8 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavDestination
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
-import com.mikhienkov.designsystem.components.BottomNavigation
-import com.mikhienkov.designsystem.theme.BookingTheme
+import com.mikhienkov.presentation.designsystem.components.BottomNavigation
+import com.mikhienkov.presentation.designsystem.theme.BookingTheme
 import com.mikhienkov.presentation.booking.BookingNavigation
 import com.mikhienkov.presentation.home.HomeNavigation
 import com.mikhienkov.presentation.profile.ProfileNavigation

@@ -1,6 +1,6 @@
 package com.mikhienkov.presentation.search
 
-import com.mikhienkov.designsystem.components.HotelDisplayMode
+import com.mikhienkov.presentation.designsystem.components.HotelDisplayMode
 import com.mikhienkov.domain.valueobjects.HotelCategory
 import com.mikhienkov.domain.valueobjects.HotelFacility
 import com.mikhienkov.domain.valueobjects.HotelSearchFilter

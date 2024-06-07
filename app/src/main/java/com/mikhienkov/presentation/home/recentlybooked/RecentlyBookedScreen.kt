@@ -13,10 +13,10 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.mikhienkov.R
-import com.mikhienkov.designsystem.components.HotelDisplayMode
-import com.mikhienkov.designsystem.components.HotelSummaries
-import com.mikhienkov.designsystem.components.Navbar
-import com.mikhienkov.designsystem.components.NavbarAction
+import com.mikhienkov.presentation.designsystem.components.HotelDisplayMode
+import com.mikhienkov.presentation.designsystem.components.HotelSummaries
+import com.mikhienkov.presentation.designsystem.components.Navbar
+import com.mikhienkov.presentation.designsystem.components.NavbarAction
 import com.mikhienkov.presentation.utils.getIconResWithCurrentMode
 import com.mikhienkov.presentation.utils.getTintWithCurrentMode
 

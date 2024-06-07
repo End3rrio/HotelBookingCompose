@@ -3,18 +3,19 @@ package com.mikhienkov.presentation.utils
 import android.annotation.SuppressLint
 import androidx.compose.runtime.Composable
 import com.mikhienkov.R
-import com.mikhienkov.designsystem.components.HotelDisplayMode
+import com.mikhienkov.presentation.designsystem.components.HotelDisplayMode
+import com.mikhienkov.presentation.designsystem.theme.BookingTheme
 
 @SuppressLint("ComposableNaming")
 @Composable
 fun HotelDisplayMode.getTintWithCurrentMode(
     currentHotelDisplayMode: HotelDisplayMode
 ) = if (this == currentHotelDisplayMode) {
-    com.mikhienkov.designsystem.theme.BookingTheme.colors.primary500
-} else if (com.mikhienkov.designsystem.theme.BookingTheme.theme.isDark) {
-    com.mikhienkov.designsystem.theme.BookingTheme.colors.white
+    BookingTheme.colors.primary500
+} else if (BookingTheme.theme.isDark) {
+    BookingTheme.colors.white
 } else {
-    com.mikhienkov.designsystem.theme.BookingTheme.colors.greyscale900
+    BookingTheme.colors.greyscale900
 }
 
 

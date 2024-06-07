@@ -21,8 +21,8 @@ import com.google.accompanist.systemuicontroller.rememberSystemUiController
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
-import com.mikhienkov.designsystem.components.BackgroundSurface
-import com.mikhienkov.designsystem.theme.BookingTheme
+import com.mikhienkov.presentation.designsystem.components.BackgroundSurface
+import com.mikhienkov.presentation.designsystem.theme.BookingTheme
 import com.mikhienkov.domain.valueobjects.Theme
 import com.mikhienkov.presentation.auth.authentication.AuthenticationNavigation
 import com.mikhienkov.presentation.home.HomeNavigation

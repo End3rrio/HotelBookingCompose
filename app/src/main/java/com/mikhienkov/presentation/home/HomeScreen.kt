@@ -27,14 +27,14 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.mikhienkov.R
-import com.mikhienkov.designsystem.components.Chip
-import com.mikhienkov.designsystem.components.ImageHotelCard
-import com.mikhienkov.designsystem.components.ListHotelCard
-import com.mikhienkov.designsystem.components.NavbarAction
-import com.mikhienkov.designsystem.components.SearchBar
-import com.mikhienkov.designsystem.components.TextButton
-import com.mikhienkov.designsystem.components.TopDestinationNavbar
-import com.mikhienkov.designsystem.theme.BookingTheme
+import com.mikhienkov.presentation.designsystem.components.Chip
+import com.mikhienkov.presentation.designsystem.components.ImageHotelCard
+import com.mikhienkov.presentation.designsystem.components.ListHotelCard
+import com.mikhienkov.presentation.designsystem.components.NavbarAction
+import com.mikhienkov.presentation.designsystem.components.SearchBar
+import com.mikhienkov.presentation.designsystem.components.TextButton
+import com.mikhienkov.presentation.designsystem.components.TopDestinationNavbar
+import com.mikhienkov.presentation.designsystem.theme.BookingTheme
 import com.mikhienkov.domain.entities.HotelSummary
 import com.mikhienkov.domain.valueobjects.HotelCategory
 

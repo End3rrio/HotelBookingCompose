@@ -1,6 +1,6 @@
 package com.mikhienkov.presentation.home.recentlybooked
 
-import com.mikhienkov.designsystem.components.HotelDisplayMode
+import com.mikhienkov.presentation.designsystem.components.HotelDisplayMode
 import com.mikhienkov.domain.entities.HotelSummary
 
 data class RecentlyBookedUiState(

@@ -12,11 +12,11 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import com.mikhienkov.designsystem.components.Dialog
-import com.mikhienkov.designsystem.theme.BookingTheme
-import com.mikhienkov.designsystem.components.Divider
-import com.mikhienkov.designsystem.components.PrimaryButton
-import com.mikhienkov.designsystem.components.SecondaryButton
+import com.mikhienkov.presentation.designsystem.components.Dialog
+import com.mikhienkov.presentation.designsystem.theme.BookingTheme
+import com.mikhienkov.presentation.designsystem.components.Divider
+import com.mikhienkov.presentation.designsystem.components.PrimaryButton
+import com.mikhienkov.presentation.designsystem.components.SecondaryButton
 
 
 @Composable

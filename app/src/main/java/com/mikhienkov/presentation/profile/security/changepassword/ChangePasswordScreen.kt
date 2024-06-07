@@ -22,10 +22,10 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.mikhienkov.R
-import com.mikhienkov.designsystem.components.LoadingDialog
-import com.mikhienkov.designsystem.components.Navbar
-import com.mikhienkov.designsystem.components.PasswordInputField
-import com.mikhienkov.designsystem.components.PrimaryButton
+import com.mikhienkov.presentation.designsystem.components.LoadingDialog
+import com.mikhienkov.presentation.designsystem.components.Navbar
+import com.mikhienkov.presentation.designsystem.components.PasswordInputField
+import com.mikhienkov.presentation.designsystem.components.PrimaryButton
 import com.mikhienkov.presentation.profile.security.RecentLoginRequiredDialog
 
 @Composable
