@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.V29.Theme.Booking" parent="Base.V27.Theme.Booking">
+        <item name="android:enforceNavigationBarContrast">false</item>
+    </style>
+
+    <style name="Base.Theme.Booking" parent="Base.V29.Theme.Booking" />
+</resources>

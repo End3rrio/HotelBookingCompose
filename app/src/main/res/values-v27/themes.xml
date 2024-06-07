@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.V27.Theme.Booking" parent="Base.V26.Theme.Booking">
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+
+    <style name="Base.Theme.Booking" parent="Base.V27.Theme.Booking" />
+
+
+    <style name="Base.V27.Theme.Splash" parent="Base.V26.Theme.Splash">
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+
+</resources>
