@@ -8,7 +8,6 @@ interface ValidatePasswordUseCase {
 
 class ValidatePasswordUseCaseImpl @Inject constructor() : ValidatePasswordUseCase {
     override fun invoke(password: String): Boolean {
-        // When the password is shorter, Firebase throws FirebaseAuthWeakPasswordException.
         return password.length >= 6
     }
 }
